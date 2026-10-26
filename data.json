@@ -1,6 +1,8 @@
 {
     "title": "My Leaderboard",
-    "numCol": 10,
+    "players": 10,
     "image": leaf-firework.png,
+    "horizontal": True, 
+    "points": 10,
     "message": "Welcome to the leaderboard!"
 }

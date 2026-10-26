@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import json
 
 st.set_page_config(page_title = "LEADERBOARDS")
 
@@ -10,4 +11,4 @@ st.title(data["title"])
 
 st.image(data[image])
 
-st.bar_chart(None, *, "Grade", "Points", None, None, None, True, True, "stretch", "content", "this is a leaderboard")
+st.bar_chart(None, x = "Grade", y ="Points")
