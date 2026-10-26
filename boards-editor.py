@@ -32,10 +32,10 @@ if password == editorPassword:
 
     if st.button("Save Changes"):
         update = {
-            "title" = title
-            "image" = image
-            "horizontal" = horizontal
-            "players" = players
+            "title" = title,
+            "image" = image,
+            "horizontal" = horizontal,
+            "players" = players,
             "points" = points
         }
 
