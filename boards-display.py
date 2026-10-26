@@ -5,7 +5,7 @@ import json
 st.set_page_config(page_title = "LEADERBOARDS")
 
 with open("data.json", "r") as file:
-    data = json.load(f)
+    data = json.load(file)
 
 st.title(data["title"])
 
